@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Ansel</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Looking_across_lake_toward_mountains%2C_%22Evening%2C_McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519861.jpg" 
+        alt=" "Evening, McDonald Lake, Glacier National" 
+        srcset="">
+   
+</body>
+
+</html>
