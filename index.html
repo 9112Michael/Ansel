@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ansel Adams photograph fan site">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
     <title>Ansel</title>
 </head>
 <body>
@@ -25,46 +29,53 @@
     <div class="container-1">
     <div class="box-1">
         <figure>
+            <a data-fancybox="gallery" href="https://upload.wikimedia.org/wikipedia/commons/9/9d/Looking_across_lake_toward_mountains%2C_%22Evening%2C_McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519861.jpg">
         <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Looking_across_lake_toward_mountains%2C_%22Evening%2C_McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519861.jpg" 
-            alt= "Evening, McDonald Lake, Glacier National">
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Looking_across_lake_toward_mountains%2C_%22Evening%2C_McDonald_Lake%2C_Glacier_National_Park%2C%22_Montana.%2C_1933_-_1942_-_NARA_-_519861.jpg"
+            alt= "Evening, McDonald Lake, Glacier National"/></a>
             <figcaption>Looking across lake toward mountains</figcaption>
         </figure>
     </div>
     <div class="box-2">
         <figure>
+            <a data-fancybox="gallery" href="https://upload.wikimedia.org/wikipedia/commons/4/46/Going-to-the-Sun_Mountain%2C_Glacier_National_Park.jpg">
         <img 
             src="https://upload.wikimedia.org/wikipedia/commons/4/46/Going-to-the-Sun_Mountain%2C_Glacier_National_Park.jpg" 
-            alt="Going-to-the-Sun Mountain, Glacier National Park">
+            alt="Going-to-the-Sun Mountain, Glacier National Park"/></a>
             <figcaption>Going-to-the-Sun, Glacier National Park</figcaption>
         </figure>
     </div>
     <div class="box-3">
         <figure>
+            <a data-fancybox="gallery" href="https://upload.wikimedia.org/wikipedia/commons/d/d5/%28Jackson_Lake_in_foreground%2C_with_Teton_Range_in_background%2C_view_looking_southwest_from_north_end_of_the_lake.%29%2C_Grand_-_NARA_-_519909.jpg">
         <img 
             src="https://upload.wikimedia.org/wikipedia/commons/d/d5/%28Jackson_Lake_in_foreground%2C_with_Teton_Range_in_background%2C_view_looking_southwest_from_north_end_of_the_lake.%29%2C_Grand_-_NARA_-_519909.jpg" 
-            alt="In Glacier National Park (1942). Jackson Lake in foreground, with Teton Range in background, view looking southwest from north end of the lake.">
+            alt="In Glacier National Park (1942). Jackson Lake in foreground, with Teton Range in background, view looking southwest from north end of the lake."></a>
             <figcaption>Jackson Lake, Glacier National Park</figcaption>
         </figure>
     </div>
 </div>
-    </main>
+</main>    
     <hr>
     <article>
         <figcaption>About Ansel Adams</figcaption>
         <blockquote cite="https://www.goodreads.com/author/quotes/12115.Ansel_Adams">“It is horrifying that we have to fight our own government to save the environment.” 
            <cite>― Ansel Adams</cite></blockquote>
-            <br>
+            <hr>
         <p>When Ansel Adams started taking photographs of the western United States he had been raised to follow the ideas of <strong>Ralph Waldo Emerson</strong>, a modest, moral life guided by a social responsibility to man and to nature.</p>
     </article>
     <footer>
         <div>
         <h3 id="biography">About the Photographer</h3>
-        <img 
+        <picture>
+        <img class="photographer" 
             src="http://c1.staticflickr.com/2/1532/24306576032_b834411505_b.jpg" 
-            alt="... ansel adams with a contax camera by edward weston | by urcameras">
+            alt="... ansel adams with a contax camera by edward weston | by urcameras"/>
+        </picture>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>
